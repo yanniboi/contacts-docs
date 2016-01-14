@@ -2,23 +2,78 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "Welcome to Decoupled User Authentication\n\n\nThis site is a Documentation Store for all of our project resources.\n\n\nBlog\n\n\nWant to learn more? Why not read our \nblog\n?", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to MkDocs"
+            "location": "/#welcome-to-decoupled-user-authentication", 
+            "text": "This site is a Documentation Store for all of our project resources.", 
+            "title": "Welcome to Decoupled User Authentication"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/#blog", 
+            "text": "Want to learn more? Why not read our  blog ?", 
+            "title": "Blog"
         }, 
         {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/contact/", 
+            "text": "Contact Us\n\n\nDrupal.org\n\n\nFeel free to contact us on Drupal.org:\n\n\n\n\nandrewbelcher - \ncontact\n\n\nrlmumford - \ncontact\n\n\nyanniboi - \ncontact\n\n\nyautja_cetanu - \ncontact\n\n\n\n\nIRC\n\n\nWe hang out on irc on \n#drupal-crm", 
+            "title": "Contact"
+        }, 
+        {
+            "location": "/contact/#contact-us", 
+            "text": "", 
+            "title": "Contact Us"
+        }, 
+        {
+            "location": "/contact/#drupalorg", 
+            "text": "Feel free to contact us on Drupal.org:   andrewbelcher -  contact  rlmumford -  contact  yanniboi -  contact  yautja_cetanu -  contact", 
+            "title": "Drupal.org"
+        }, 
+        {
+            "location": "/contact/#irc", 
+            "text": "We hang out on irc on  #drupal-crm", 
+            "title": "IRC"
+        }, 
+        {
+            "location": "/development/where-to-start/", 
+            "text": "Where to Start\n\n\nWe are currently doing the bulk of our work on Drupal.org and GitHub.\n\n\nDrupal.org\n\n\n\n\nPlanning\n\n\nIssue Reporting\n\n\n\n\nGitHub\n\n\n\n\n\n\nDevelopment\n\n\nCode review\n\n\nTesting (using \nTravisCI\n)", 
+            "title": "Where to start"
+        }, 
+        {
+            "location": "/development/where-to-start/#where-to-start", 
+            "text": "We are currently doing the bulk of our work on Drupal.org and GitHub.  Drupal.org   Planning  Issue Reporting   GitHub    Development  Code review  Testing (using  TravisCI )", 
+            "title": "Where to Start"
+        }, 
+        {
+            "location": "/development/api/", 
+            "text": "API\n\n\nWe are using the Drupal Api module to index our project and output API Regerence pages \nhere\n.", 
+            "title": "API References"
+        }, 
+        {
+            "location": "/development/api/#api", 
+            "text": "We are using the Drupal Api module to index our project and output API Regerence pages  here .", 
+            "title": "API"
+        }, 
+        {
+            "location": "/development/automation/", 
+            "text": "What are we automating?\n\n\nTests\n\n\nWhen a pull request to our github repo is created, we are using TravisCI to automatically test the changes.\n\n\nRead more\n\n\nGitHub and Drupal.org Issues\n\n\nWhe you are working on an issue. You should first create an issue on Drupal.org.\n\n\nNext create a new branch out of 8.x-1.x of your decoupled_auth fork on Github. This branch should end in the issue number from drupal.org.\nEg. \ngit checkout -b issue-2636140\n\n\nThen when you create the pull request and everytime you push changes to it, it should automatically post a comment on the issue on Drupal.org with a patch file containing the work you have done.\n\n\nThis is done thanks to klausi's \nGithub Pull request to drupal.org synchronization", 
+            "title": "Development Automation"
+        }, 
+        {
+            "location": "/development/automation/#what-are-we-automating", 
+            "text": "", 
+            "title": "What are we automating?"
+        }, 
+        {
+            "location": "/development/automation/#tests", 
+            "text": "When a pull request to our github repo is created, we are using TravisCI to automatically test the changes.  Read more", 
+            "title": "Tests"
+        }, 
+        {
+            "location": "/development/automation/#github-and-drupalorg-issues", 
+            "text": "Whe you are working on an issue. You should first create an issue on Drupal.org.  Next create a new branch out of 8.x-1.x of your decoupled_auth fork on Github. This branch should end in the issue number from drupal.org.\nEg.  git checkout -b issue-2636140  Then when you create the pull request and everytime you push changes to it, it should automatically post a comment on the issue on Drupal.org with a patch file containing the work you have done.  This is done thanks to klausi's  Github Pull request to drupal.org synchronization", 
+            "title": "GitHub and Drupal.org Issues"
         }
     ]
 }

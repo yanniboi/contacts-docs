@@ -9,4 +9,34 @@
     </url>
     
 
+    
+    <url>
+     <loc>None/contact/</loc>
+     <lastmod>2016-01-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>None/development/where-to-start/</loc>
+     <lastmod>2016-01-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/development/api/</loc>
+     <lastmod>2016-01-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/development/automation/</loc>
+     <lastmod>2016-01-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
 </urlset>

@@ -1,1 +1,17 @@
-site_name: My Docs
+site_name: Decoupled User Authentication
+site_description: Project documentation.
+site_author: yanniboi <Yan Loetzer>
+
+repo_url: https://github.com/freelygive/decoupled_auth/
+theme: spacelab
+#theme_dir: yanniboi_spacelab
+pages:
+- Home: 'index.md'
+- Contact: 'contact.md'
+- Development:
+    - 'Where to start': 'development/where-to-start.md'
+    - 'API References': 'development/api.md'
+    - 'Development Automation': 'development/automation.md'
+
+
+copyright: Copyright &copy; 2016 <a href="https://twitter.com/yanniboi">yanniboi</a>.

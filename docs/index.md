@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+#Welcome to Decoupled User Authentication
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+This site is a Documentation Store for all of our project resources.
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+##Blog
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Want to learn more? Why not read our [blog](http://blog.freelygive.org.uk)?

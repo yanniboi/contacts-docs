@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-01-14</lastmod>
+     <lastmod>2016-01-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>None/contact/</loc>
-     <lastmod>2016-01-14</lastmod>
+     <lastmod>2016-01-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,23 +20,47 @@
     
         
     <url>
+     <loc>None/drupal-8/decoupled_auth/</loc>
+     <lastmod>2016-01-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/drupal-8/contacts/</loc>
+     <lastmod>2016-01-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>None/development/where-to-start/</loc>
-     <lastmod>2016-01-14</lastmod>
+     <lastmod>2016-01-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/development/api/</loc>
-     <lastmod>2016-01-14</lastmod>
+     <lastmod>2016-01-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/development/automation/</loc>
-     <lastmod>2016-01-14</lastmod>
+     <lastmod>2016-01-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+    <url>
+     <loc>None/drupal-7/about/</loc>
+     <lastmod>2016-01-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>

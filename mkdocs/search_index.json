@@ -2,17 +2,22 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to Decoupled User Authentication\n\n\nThis site is a Documentation Store for all of our project resources.\n\n\nBlog\n\n\nWant to learn more? Why not read our \nblog\n?", 
+            "text": "Drupal Contacts Documentation\n\n\nThis site is a Documentation Store for all of our project resources.\n\n\nDrupal Contacts is our way of doing CRM Natively in Drupal 8. Flexible, Scalable and entirely the Drupal way. What could be better?\n\n\nThis documentation is rendered online at \nhttp://docs.drupalcontacts.org\n.\n\n\nContribute\n\n\nWe love contributors! Please help us improve or fix the documentation by opening a Pull Request.\n\n\nIf you have trouble understanding any part of the documentation, please notify those of us who work on this section by creating an issue in our \ndocumentation repository\n and clearly explain what you don't understand and why - we're happy to hear from you, your contribution helps everyone!\n\n\nYou can also contribute directly on our \ndocumentation repository\n by editing the files through the GitHub interface directly in your browser. Alternatively, you can clone the repository and edit the book in your favorite text editor or in the official GitBook desktop app.\n\n\nBlog\n\n\nWe are actively documenting our journey of building Drupal Contacts in Drupal 8 in our blog.\n\n\nWant to learn more? Why not read our \nblog\n?", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-decoupled-user-authentication", 
-            "text": "This site is a Documentation Store for all of our project resources.", 
-            "title": "Welcome to Decoupled User Authentication"
+            "location": "/#drupal-contacts-documentation", 
+            "text": "This site is a Documentation Store for all of our project resources.  Drupal Contacts is our way of doing CRM Natively in Drupal 8. Flexible, Scalable and entirely the Drupal way. What could be better?  This documentation is rendered online at  http://docs.drupalcontacts.org .", 
+            "title": "Drupal Contacts Documentation"
+        }, 
+        {
+            "location": "/#contribute", 
+            "text": "We love contributors! Please help us improve or fix the documentation by opening a Pull Request.  If you have trouble understanding any part of the documentation, please notify those of us who work on this section by creating an issue in our  documentation repository  and clearly explain what you don't understand and why - we're happy to hear from you, your contribution helps everyone!  You can also contribute directly on our  documentation repository  by editing the files through the GitHub interface directly in your browser. Alternatively, you can clone the repository and edit the book in your favorite text editor or in the official GitBook desktop app.", 
+            "title": "Contribute"
         }, 
         {
             "location": "/#blog", 
-            "text": "Want to learn more? Why not read our  blog ?", 
+            "text": "We are actively documenting our journey of building Drupal Contacts in Drupal 8 in our blog.  Want to learn more? Why not read our  blog ?", 
             "title": "Blog"
         }, 
         {
@@ -36,24 +41,119 @@
             "title": "IRC"
         }, 
         {
+            "location": "/drupal-8/decoupled_auth/", 
+            "text": "Decoupled User Authentication\n\n\nThis is a building block module. It enables you to build your own CRM system and doesn't do much configuration for you.\n\n\nFor a more configured solution try \nContacts\n.\n\n\nInstalling\n\n\nRequirements\n\n\nIf you already have a web server, make sure it satisfies Drupal 8's requirements.\nThe recommended memory limit is 256MB or more, and the minimum php requirement is 5.6.\n\n\nDecoupled User Authentication does not have any module requirements at present, but to build your CRM system we recommend using the folloing modules.\n\n\n\n\nViews\n (Now in core :) )\n\n\nProfile\n (Partially in core, but actively developed in contrib)\n\n\nEntity\n (Partially in core, but actively developed in contrib)\n\n\nAddress\n\n\n\n\nGetting Started with Decoupled User Authentication\n\n\nNote: These are the steps immediately following the new installation of the Commerce 2 module.\n\n\nStep 1: Create some Roles\n\n\nWe are using Drupal Roles to bundle Contact types. So if you have different types of contact in your CRM system (eg. Individual, Organisations, Staff, Leads, etc) then you will want to create a user role for each.\n\n\n\n\nStep 2: Create some Profile Types\n\n\nWe use Profile Types as bundles of information attached to our contacts. You can have shared profiles (eg. Individual) or specific profiles (eg. Staff Payroll).\n\n\n\n\nStep 3: Create some Contacts\n\n\nContacts are just users without authentication (username and password). So you can create them through the regular 'Add People' form.", 
+            "title": "Decoupled User Authentication"
+        }, 
+        {
+            "location": "/drupal-8/decoupled_auth/#decoupled-user-authentication", 
+            "text": "This is a building block module. It enables you to build your own CRM system and doesn't do much configuration for you.  For a more configured solution try  Contacts .", 
+            "title": "Decoupled User Authentication"
+        }, 
+        {
+            "location": "/drupal-8/decoupled_auth/#installing", 
+            "text": "", 
+            "title": "Installing"
+        }, 
+        {
+            "location": "/drupal-8/decoupled_auth/#requirements", 
+            "text": "If you already have a web server, make sure it satisfies Drupal 8's requirements.\nThe recommended memory limit is 256MB or more, and the minimum php requirement is 5.6.  Decoupled User Authentication does not have any module requirements at present, but to build your CRM system we recommend using the folloing modules.   Views  (Now in core :) )  Profile  (Partially in core, but actively developed in contrib)  Entity  (Partially in core, but actively developed in contrib)  Address", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/drupal-8/decoupled_auth/#getting-started-with-decoupled-user-authentication", 
+            "text": "Note: These are the steps immediately following the new installation of the Commerce 2 module.", 
+            "title": "Getting Started with Decoupled User Authentication"
+        }, 
+        {
+            "location": "/drupal-8/decoupled_auth/#step-1-create-some-roles", 
+            "text": "We are using Drupal Roles to bundle Contact types. So if you have different types of contact in your CRM system (eg. Individual, Organisations, Staff, Leads, etc) then you will want to create a user role for each.", 
+            "title": "Step 1: Create some Roles"
+        }, 
+        {
+            "location": "/drupal-8/decoupled_auth/#step-2-create-some-profile-types", 
+            "text": "We use Profile Types as bundles of information attached to our contacts. You can have shared profiles (eg. Individual) or specific profiles (eg. Staff Payroll).", 
+            "title": "Step 2: Create some Profile Types"
+        }, 
+        {
+            "location": "/drupal-8/decoupled_auth/#step-3-create-some-contacts", 
+            "text": "Contacts are just users without authentication (username and password). So you can create them through the regular 'Add People' form.", 
+            "title": "Step 3: Create some Contacts"
+        }, 
+        {
+            "location": "/drupal-8/contacts/", 
+            "text": "Contacts\n\n\nThis is a building block module. It enables you to build your own CRM system and doesn't do much configuration for you.\n\n\nInstalling\n\n\nRequirements\n\n\n[TBC]\n\n\nGetting Started with Decoupled User Authentication\n\n\nStep 1: Create some Contact Bundles\n\n\n[TBC]\n\n\nStep 2: Create some Data Bundles\n\n\n[TBC]\n\n\nStep 3: Create some Contacts\n\n\n[TBC]", 
+            "title": "Contacts"
+        }, 
+        {
+            "location": "/drupal-8/contacts/#contacts", 
+            "text": "This is a building block module. It enables you to build your own CRM system and doesn't do much configuration for you.", 
+            "title": "Contacts"
+        }, 
+        {
+            "location": "/drupal-8/contacts/#installing", 
+            "text": "", 
+            "title": "Installing"
+        }, 
+        {
+            "location": "/drupal-8/contacts/#requirements", 
+            "text": "[TBC]", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/drupal-8/contacts/#getting-started-with-decoupled-user-authentication", 
+            "text": "", 
+            "title": "Getting Started with Decoupled User Authentication"
+        }, 
+        {
+            "location": "/drupal-8/contacts/#step-1-create-some-contact-bundles", 
+            "text": "[TBC]", 
+            "title": "Step 1: Create some Contact Bundles"
+        }, 
+        {
+            "location": "/drupal-8/contacts/#step-2-create-some-data-bundles", 
+            "text": "[TBC]", 
+            "title": "Step 2: Create some Data Bundles"
+        }, 
+        {
+            "location": "/drupal-8/contacts/#step-3-create-some-contacts", 
+            "text": "[TBC]", 
+            "title": "Step 3: Create some Contacts"
+        }, 
+        {
             "location": "/development/where-to-start/", 
-            "text": "Where to Start\n\n\nWe are currently doing the bulk of our work on Drupal.org and GitHub.\n\n\nDrupal.org\n\n\n\n\nPlanning\n\n\nIssue Reporting\n\n\n\n\nGitHub\n\n\n\n\n\n\nDevelopment\n\n\nCode review\n\n\nTesting (using \nTravisCI\n)", 
+            "text": "Where to Start\n\n\nWe are currently doing the bulk of our work on Drupal.org and GitHub.\n\n\nDrupal.org\n\n\n\n\nPlanning\n\n\nIssue Reporting \n\n\n\n\nGitHub\n\n\n\n\n\n\nDevelopment\n\n\nCode review\n\n\nTesting (using \nTravisCI\n)\n\n\n\n\nAPI References\n\n\nWe are using the Drupal \nApi module\n to index our project and output our developer documentation pages \nhere\n.\n\n\nGet Involved\n\n\nHere are a list of useful links you you to get involved with:\n\n\n\n\nDecoupled User Authentication - Issue Queue\n\n\nDecoupled User Authentication - GitHub Page\n\n\nContacts - Issue Queue\n\n\nProfile - Issue Queue\n\n\nFlexiform - Issue Queue", 
             "title": "Where to start"
         }, 
         {
             "location": "/development/where-to-start/#where-to-start", 
-            "text": "We are currently doing the bulk of our work on Drupal.org and GitHub.  Drupal.org   Planning  Issue Reporting   GitHub    Development  Code review  Testing (using  TravisCI )", 
+            "text": "We are currently doing the bulk of our work on Drupal.org and GitHub.", 
             "title": "Where to Start"
         }, 
         {
-            "location": "/development/api/", 
-            "text": "API\n\n\nWe are using the Drupal Api module to index our project and output API Regerence pages \nhere\n.", 
+            "location": "/development/where-to-start/#drupalorg", 
+            "text": "Planning  Issue Reporting", 
+            "title": "Drupal.org"
+        }, 
+        {
+            "location": "/development/where-to-start/#github", 
+            "text": "Development  Code review  Testing (using  TravisCI )", 
+            "title": "GitHub"
+        }, 
+        {
+            "location": "/development/where-to-start/#api-references", 
+            "text": "We are using the Drupal  Api module  to index our project and output our developer documentation pages  here .", 
             "title": "API References"
         }, 
         {
-            "location": "/development/api/#api", 
-            "text": "We are using the Drupal Api module to index our project and output API Regerence pages  here .", 
-            "title": "API"
+            "location": "/development/where-to-start/#get-involved", 
+            "text": "Here are a list of useful links you you to get involved with:   Decoupled User Authentication - Issue Queue  Decoupled User Authentication - GitHub Page  Contacts - Issue Queue  Profile - Issue Queue  Flexiform - Issue Queue", 
+            "title": "Get Involved"
+        }, 
+        {
+            "location": "/development/api/", 
+            "text": "", 
+            "title": "API References"
         }, 
         {
             "location": "/development/automation/", 
@@ -74,6 +174,16 @@
             "location": "/development/automation/#github-and-drupalorg-issues", 
             "text": "Whe you are working on an issue. You should first create an issue on Drupal.org.  Next create a new branch out of 8.x-1.x of your decoupled_auth fork on Github. This branch should end in the issue number from drupal.org.\nEg.  git checkout -b issue-2636140  Then when you create the pull request and everytime you push changes to it, it should automatically post a comment on the issue on Drupal.org with a patch file containing the work you have done.  This is done thanks to klausi's  Github Pull request to drupal.org synchronization", 
             "title": "GitHub and Drupal.org Issues"
+        }, 
+        {
+            "location": "/drupal-7/about/", 
+            "text": "About OpenCRM\n\n\n\n\nOpenCRM\n is a fully featured native Drupal CRM solution based on the Party Module with the aim of having a comparable feature set to other popular CRM systems such as CiviCRM.\n\n\n\n\nIf you are looking to build your CRM Solution in Drupal 7. Look at OpenCRM or OpenCRM Kickstart on Drupal.org.\n\n\nWe are not going to focus on this any more here because this site is primarily about CRM in Drupal 8.", 
+            "title": "Drupal 7"
+        }, 
+        {
+            "location": "/drupal-7/about/#about-opencrm", 
+            "text": "OpenCRM  is a fully featured native Drupal CRM solution based on the Party Module with the aim of having a comparable feature set to other popular CRM systems such as CiviCRM.   If you are looking to build your CRM Solution in Drupal 7. Look at OpenCRM or OpenCRM Kickstart on Drupal.org.  We are not going to focus on this any more here because this site is primarily about CRM in Drupal 8.", 
+            "title": "About OpenCRM"
         }
     ]
 }

@@ -13,7 +13,6 @@ pages:
     - 'Contacts': 'drupal-8/contacts.md'
 - Contribute:
     - 'Where to start': 'development/where-to-start.md'
-    - 'API References': 'development/api.md'
     - 'Development Automation': 'development/automation.md'
 - Drupal 7: 'drupal-7/about.md'
 

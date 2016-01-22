@@ -1,4 +1,4 @@
-site_name: Decoupled User Authentication
+site_name: Drupal Contacts
 site_description: Project documentation.
 site_author: yanniboi <Yan Loetzer>
 
@@ -8,10 +8,14 @@ theme: spacelab
 pages:
 - Home: 'index.md'
 - Contact: 'contact.md'
-- Development:
+- Drupal 8:
+    - 'Decoupled User Authentication': 'drupal-8/decoupled_auth.md'
+    - 'Contacts': 'drupal-8/contacts.md'
+- Contribute:
     - 'Where to start': 'development/where-to-start.md'
     - 'API References': 'development/api.md'
     - 'Development Automation': 'development/automation.md'
+- Drupal 7: 'drupal-7/about.md'
 
 
 copyright: Copyright &copy; 2016 <a href="https://twitter.com/yanniboi">yanniboi</a>.
